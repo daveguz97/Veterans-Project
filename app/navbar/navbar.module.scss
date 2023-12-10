@@ -1,0 +1,15 @@
+.navbar {
+	display: flex;
+	justify-content: space-evenly;
+	min-height: 30vh;
+	margin: 2rem 0;
+	
+	.navLinks { 
+		display: flex;
+		justify-content: space-evenly;
+	
+		.navLink {
+			margin: 0 1rem;
+		}
+	}
+}
