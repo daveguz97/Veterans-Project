@@ -1,14 +1,16 @@
 import Navbar from '@/app/navbar/navbar';
-import { Lato } from 'next/font/google';
+import { Poppins } from 'next/font/google';
 
-const lato = Lato({
-	weight: ['400'],
-	subsets: ['latin']
-})
+const poppins = Poppins({
+	weight: ['400', '600'],
+	subsets: ['latin'],
+});
 export default function Home() {
 	return (
-		<main className={lato.className}>
-			<Navbar />
-		</main>
+		<>
+			<main>
+				<Navbar />
+			</main>
+		</>
 	);
 }

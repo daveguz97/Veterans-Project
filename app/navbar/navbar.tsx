@@ -21,11 +21,11 @@ export default function Navbar() {
 			<div className='logo-div'>
 				<Image
 					src='/../images/veterans-logo.png'
-					width={500}
-					height={500}
+					width={1024}
+					height={86}
 					alt='Veterans Endorsed Logo'
 					style={{
-						maxWidth: '75%',
+						maxWidth: '50%',
 						height: 'auto'
 					}}
 				/>
